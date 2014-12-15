@@ -38,7 +38,13 @@ function addRawConfigs() {
 
             config = files
                 .reduce(function(config, filePath) {
-                    config[path.basename(filePath, '.json')] = ral('config/' + filePath);
+                    var configContents = fs.readFileSync('config/' + filePath);
+
+                    configContents = _.template(configContents, { 'process' : process });
+
+                    configContents = JSON.parse(configContents);
+
+                    config[path.basename(filePath, '.json')] = configContents;
 
                     return config;
                 }, config);
