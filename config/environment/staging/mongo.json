@@ -1,7 +1,0 @@
-{
-    "database": "<%= process.env.DATABASENAME %>",
-    "host": "<%= process.env.DATABASEHOST %>",
-    "port": 27017,
-    "username": "<%= process.env.DATBASEUSERNAME %>",
-    "password": "<%= process.env.DATABASEPASSWORD %>"
-}
