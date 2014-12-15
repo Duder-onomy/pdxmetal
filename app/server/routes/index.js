@@ -13,6 +13,10 @@ module.exports = {
 function initialize() {
     var expressApp = app.expressApp;
 
+    expressApp.use(function(req, res, next) {
+        res.render('landing');
+    });
+
     expressApp.use(admin());
     expressApp.use(api());
     expressApp.use(pdxmetal());
