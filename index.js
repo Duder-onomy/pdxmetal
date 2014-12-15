@@ -13,5 +13,5 @@ app.get('*', function(req, res) {
     res.render('landing');
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 3000);
 console.log('app is listening');
