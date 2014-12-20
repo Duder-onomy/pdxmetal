@@ -1,19 +1,11 @@
 {
-  "name": "listings",
-  "description": "The best project ever.",
+  "name": "pdxmetal.net",
+  "description": "",
   "version": "0.1.0",
-  "homepage": "https://github.com/Duder-onomy/pdxmetal",
-  "author": {
-    "name": "SOLID Interactive",
-    "email": "postmaster@thinksolid.com",
-    "url": "http://thinksolid.com"
-  },
+  "homepage": "https://github.com/Duder-onomy/pdxmetal.net",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Duder-onomy/pdxmetal.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Duder-onomy/pdxmetal/issues"
+    "url": "https://github.com/Duder-onomy/pdxmetal.net.git"
   },
   "licenses": [
     {
@@ -26,8 +18,7 @@
     "node": ">= 0.8.19"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "grunt test"
+    "start": "node index.js"
   },
   "dependencies": {
     "bluebird": "^2.3.11",
