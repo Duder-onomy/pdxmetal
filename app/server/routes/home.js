@@ -8,7 +8,7 @@ module.exports = function() {
     homeRouter
         .route('*')
         .get(function(req, res) {
-            res.render('calender');
+            res.render('calendar');
         });
 
     return homeRouter;
