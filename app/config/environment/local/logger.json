@@ -1,0 +1,9 @@
+{
+  "adapters": [
+    {
+      "type": "console",
+      "application": "listings",
+      "machine": "local"
+    }
+  ]
+}
