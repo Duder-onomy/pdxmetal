@@ -1,9 +1,0 @@
-{
-  "adapters": [
-    {
-      "type": "console",
-      "application": "pdxmetal",
-      "machine": "local"
-    }
-  ]
-}
