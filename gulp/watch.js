@@ -39,4 +39,8 @@ gulp.task('watch:sass', function() {
     watch('./app/client/listings/**/*.scss', function() {
         gulp.start('sass');
     });
+
+    watch('./app/client/calendar/**/*.scss', function() {
+        gulp.start('sass');
+    });
 });

@@ -1,0 +1,21 @@
+.fullscreen {
+    height : 100%;
+    width : 100%
+}
+
+html, body {
+    @extend .fullscreen;
+}
+
+#stage {
+    @extend .fullscreen;
+
+    svg {
+        @extend .fullscreen;
+        border : 5px solid green;
+
+        .row {
+            border : 3px solid blue;
+        }
+    }
+}

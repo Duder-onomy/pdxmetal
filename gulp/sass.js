@@ -10,4 +10,10 @@ gulp.task('sass', function() {
         .pipe(sass())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./app/client/listings/styles'));
+
+    gulp.src('./app/client/calendar/styles/index.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./app/client/calendar/styles'));
 });

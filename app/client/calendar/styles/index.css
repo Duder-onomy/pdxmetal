@@ -1,0 +1,14 @@
+/* line 1, /Users/greglarrenaga/Desktop/pdxmetal.net/app/client/calendar/styles/index.scss */
+.fullscreen, html, body, #stage, #stage svg {
+  height: 100%;
+  width: 100%; }
+
+/* line 13, /Users/greglarrenaga/Desktop/pdxmetal.net/app/client/calendar/styles/index.scss */
+#stage svg {
+  border: 5px solid green; }
+  /* line 17, /Users/greglarrenaga/Desktop/pdxmetal.net/app/client/calendar/styles/index.scss */
+  #stage svg .row {
+    border: 3px solid blue; }
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLGFBQWEsTUFBTSxNQUFNLFFBQVEsT0FBTztFQUNwQyxRQUFTO0VBQ1QsT0FBUTs7O0FBUVosT0FBTztFQUlDLFFBQVM7O0VBQWpCLE9BQU8sSUFBSTtJQUdDLFFBQVMiLCJmaWxlIjoiaW5kZXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZ1bGxzY3JlZW4ge1xuICAgIGhlaWdodCA6IDEwMCU7XG4gICAgd2lkdGggOiAxMDAlXG59XG5cbmh0bWwsIGJvZHkge1xuICAgIEBleHRlbmQgLmZ1bGxzY3JlZW47XG59XG5cbiNzdGFnZSB7XG4gICAgQGV4dGVuZCAuZnVsbHNjcmVlbjtcblxuICAgIHN2ZyB7XG4gICAgICAgIEBleHRlbmQgLmZ1bGxzY3JlZW47XG4gICAgICAgIGJvcmRlciA6IDVweCBzb2xpZCBncmVlbjtcblxuICAgICAgICAucm93IHtcbiAgICAgICAgICAgIGJvcmRlciA6IDNweCBzb2xpZCBibHVlO1xuICAgICAgICB9XG4gICAgfVxufVxuIl0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

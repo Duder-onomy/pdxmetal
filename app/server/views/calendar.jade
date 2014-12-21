@@ -1,8 +1,17 @@
 extends ./index.jade
 
+block head
+    link(rel='stylesheet', type='text/css', href='/vendor/bootstrap/dist/css/bootstrap.css')
+    
+    link(rel='stylesheet', type='text/css', href='/calendar/styles/index.css')
+
 block content
     #stage
-        | Your Momma
 
 block script
-    script(src='calendar/index.js')
+    script(src='/vendor/jquery/dist/jquery.js')
+    script(src='/vendor/bootstrap/dist/js/bootstrap.js')
+    script(src='/vendor/d3/d3.js')
+    
+    script(src='/calendar/calendarData.js')
+    script(src='/calendar/index.js')
