@@ -5,6 +5,7 @@
 
 html, body {
     @extend .fullscreen;
+    shape-rendering: crispEdges;
 }
 
 #stage {
@@ -12,10 +13,16 @@ html, body {
 
     svg {
         @extend .fullscreen;
-        border : 5px solid green;
+    }
 
-        .row {
-            border : 3px solid blue;
-        }
+    .day {
+      fill: #fff;
+      stroke: #ccc;
+    }
+
+    .month {
+      fill: none;
+      stroke: #000;
+      stroke-width: 2px;
     }
 }
